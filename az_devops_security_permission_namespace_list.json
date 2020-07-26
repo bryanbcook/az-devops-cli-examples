@@ -1,0 +1,2798 @@
+[
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View analytics",
+        "name": "Read",
+        "namespaceId": "58450c49-b02d-465a-ab12-59ae512d6531"
+      },
+      {
+        "bit": 2,
+        "displayName": "Manage analytics permissions",
+        "name": "Administer",
+        "namespaceId": "58450c49-b02d-465a-ab12-59ae512d6531"
+      },
+      {
+        "bit": 4,
+        "displayName": "Push the data to staging area",
+        "name": "Stage",
+        "namespaceId": "58450c49-b02d-465a-ab12-59ae512d6531"
+      },
+      {
+        "bit": 8,
+        "displayName": "Execute query without any restrictions on the query form",
+        "name": "ExecuteUnrestrictedQuery",
+        "namespaceId": "58450c49-b02d-465a-ab12-59ae512d6531"
+      },
+      {
+        "bit": 16,
+        "displayName": "Read EUII data",
+        "name": "ReadEuii",
+        "namespaceId": "58450c49-b02d-465a-ab12-59ae512d6531"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": "Analytics",
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "Analytics",
+    "namespaceId": "58450c49-b02d-465a-ab12-59ae512d6531",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 30,
+    "useTokenTranslator": false,
+    "writePermission": 2
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View shared Analytics views",
+        "name": "Read",
+        "namespaceId": "d34d3680-dfe5-4cc6-a949-7d9c68f73cba"
+      },
+      {
+        "bit": 2,
+        "displayName": "Edit shared Analytics views",
+        "name": "Edit",
+        "namespaceId": "d34d3680-dfe5-4cc6-a949-7d9c68f73cba"
+      },
+      {
+        "bit": 4,
+        "displayName": "Delete shared Analytics views",
+        "name": "Delete",
+        "namespaceId": "d34d3680-dfe5-4cc6-a949-7d9c68f73cba"
+      },
+      {
+        "bit": 8,
+        "displayName": "Execute Analytics views",
+        "name": "Execute",
+        "namespaceId": "d34d3680-dfe5-4cc6-a949-7d9c68f73cba"
+      },
+      {
+        "bit": 1024,
+        "displayName": "Manage",
+        "name": "ManagePermissions",
+        "namespaceId": "d34d3680-dfe5-4cc6-a949-7d9c68f73cba"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": "AnalyticsViews",
+    "elementLength": -1,
+    "extensionType": "Microsoft.VisualStudio.Services.Analytics.AnalyticsViewsSecurityExtension",
+    "isRemotable": false,
+    "name": "AnalyticsViews",
+    "namespaceId": "d34d3680-dfe5-4cc6-a949-7d9c68f73cba",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 8,
+    "useTokenTranslator": false,
+    "writePermission": 1024
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Read pipeline cache entries",
+        "name": "Read",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 2,
+        "displayName": "Write pipeline cache entries",
+        "name": "Write",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "PipelineCachePrivileges",
+    "namespaceId": "62a7ad6b-8b8d-426b-ba10-76a7090e94d5",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 2
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View task editor",
+        "name": "ViewTaskEditor",
+        "namespaceId": "7c7d32f7-0e86-4cd6-892e-b35dbba870bd"
+      },
+      {
+        "bit": 2,
+        "displayName": "View CD workflow editor",
+        "name": "ViewCDWorkflowEditor",
+        "namespaceId": "7c7d32f7-0e86-4cd6-892e-b35dbba870bd"
+      },
+      {
+        "bit": 4,
+        "displayName": "Export release pipeline",
+        "name": "ExportReleaseDefinition",
+        "namespaceId": "7c7d32f7-0e86-4cd6-892e-b35dbba870bd"
+      },
+      {
+        "bit": 8,
+        "displayName": "View legacy UI",
+        "name": "ViewLegacyUI",
+        "namespaceId": "7c7d32f7-0e86-4cd6-892e-b35dbba870bd"
+      },
+      {
+        "bit": 16,
+        "displayName": "Deployment summary across projects",
+        "name": "DeploymentSummaryAcrossProjects",
+        "namespaceId": "7c7d32f7-0e86-4cd6-892e-b35dbba870bd"
+      },
+      {
+        "bit": 32,
+        "displayName": "View external artifact commits and work items",
+        "name": "ViewExternalArtifactCommitsAndWorkItems",
+        "namespaceId": "7c7d32f7-0e86-4cd6-892e-b35dbba870bd"
+      }
+    ],
+    "dataspaceCategory": "ReleaseManagement",
+    "displayName": "ReleaseManagement",
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "ReleaseManagement",
+    "namespaceId": "7c7d32f7-0e86-4cd6-892e-b35dbba870bd",
+    "readPermission": 0,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 0
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View release pipeline",
+        "name": "ViewReleaseDefinition",
+        "namespaceId": "c788c23e-1b46-4162-8f5e-d7585343b5de"
+      },
+      {
+        "bit": 2,
+        "displayName": "Edit release pipeline",
+        "name": "EditReleaseDefinition",
+        "namespaceId": "c788c23e-1b46-4162-8f5e-d7585343b5de"
+      },
+      {
+        "bit": 4,
+        "displayName": "Delete release pipeline",
+        "name": "DeleteReleaseDefinition",
+        "namespaceId": "c788c23e-1b46-4162-8f5e-d7585343b5de"
+      },
+      {
+        "bit": 8,
+        "displayName": "Manage release approvers",
+        "name": "ManageReleaseApprovers",
+        "namespaceId": "c788c23e-1b46-4162-8f5e-d7585343b5de"
+      },
+      {
+        "bit": 16,
+        "displayName": "Manage releases",
+        "name": "ManageReleases",
+        "namespaceId": "c788c23e-1b46-4162-8f5e-d7585343b5de"
+      },
+      {
+        "bit": 32,
+        "displayName": "View releases",
+        "name": "ViewReleases",
+        "namespaceId": "c788c23e-1b46-4162-8f5e-d7585343b5de"
+      },
+      {
+        "bit": 64,
+        "displayName": "Create releases",
+        "name": "CreateReleases",
+        "namespaceId": "c788c23e-1b46-4162-8f5e-d7585343b5de"
+      },
+      {
+        "bit": 128,
+        "displayName": "Edit release stage",
+        "name": "EditReleaseEnvironment",
+        "namespaceId": "c788c23e-1b46-4162-8f5e-d7585343b5de"
+      },
+      {
+        "bit": 256,
+        "displayName": "Delete release stage",
+        "name": "DeleteReleaseEnvironment",
+        "namespaceId": "c788c23e-1b46-4162-8f5e-d7585343b5de"
+      },
+      {
+        "bit": 512,
+        "displayName": "Administer release permissions",
+        "name": "AdministerReleasePermissions",
+        "namespaceId": "c788c23e-1b46-4162-8f5e-d7585343b5de"
+      },
+      {
+        "bit": 1024,
+        "displayName": "Delete releases",
+        "name": "DeleteReleases",
+        "namespaceId": "c788c23e-1b46-4162-8f5e-d7585343b5de"
+      },
+      {
+        "bit": 2048,
+        "displayName": "Manage deployments",
+        "name": "ManageDeployments",
+        "namespaceId": "c788c23e-1b46-4162-8f5e-d7585343b5de"
+      },
+      {
+        "bit": 4096,
+        "displayName": "Manage release settings",
+        "name": "ManageReleaseSettings",
+        "namespaceId": "c788c23e-1b46-4162-8f5e-d7585343b5de"
+      },
+      {
+        "bit": 8192,
+        "displayName": "Manage TaskHub Extension",
+        "name": "ManageTaskHubExtension",
+        "namespaceId": "c788c23e-1b46-4162-8f5e-d7585343b5de"
+      }
+    ],
+    "dataspaceCategory": "ReleaseManagement",
+    "displayName": "ReleaseManagement",
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "ReleaseManagement",
+    "namespaceId": "c788c23e-1b46-4162-8f5e-d7585343b5de",
+    "readPermission": 0,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 512
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View audit log",
+        "name": "Read",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 2,
+        "displayName": "Write to the audit log",
+        "name": "Write",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 4,
+        "displayName": "Manage audit streams",
+        "name": "Manage_Streams",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 8,
+        "displayName": "Delete audit streams",
+        "name": "Delete_Streams",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": "AuditLog",
+    "elementLength": -1,
+    "extensionType": "Microsoft.TeamFoundation.Framework.Server.FrameworkSecurityNamespaceExtension",
+    "isRemotable": false,
+    "name": "AuditLog",
+    "namespaceId": "a6cc6381-a1ca-4b36-b3c1-4e65211e82b6",
+    "readPermission": 1,
+    "separatorValue": "\u0000",
+    "structureValue": 0,
+    "systemBitMask": 2,
+    "useTokenTranslator": false,
+    "writePermission": 2
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View identity information",
+        "name": "Read",
+        "namespaceId": "5a27515b-ccd7-42c9-84f1-54c998f03866"
+      },
+      {
+        "bit": 2,
+        "displayName": "Edit identity information",
+        "name": "Write",
+        "namespaceId": "5a27515b-ccd7-42c9-84f1-54c998f03866"
+      },
+      {
+        "bit": 4,
+        "displayName": "Delete identity information",
+        "name": "Delete",
+        "namespaceId": "5a27515b-ccd7-42c9-84f1-54c998f03866"
+      },
+      {
+        "bit": 8,
+        "displayName": "Manage group membership",
+        "name": "ManageMembership",
+        "namespaceId": "5a27515b-ccd7-42c9-84f1-54c998f03866"
+      },
+      {
+        "bit": 16,
+        "displayName": "Create identity scopes",
+        "name": "CreateScope",
+        "namespaceId": "5a27515b-ccd7-42c9-84f1-54c998f03866"
+      },
+      {
+        "bit": 32,
+        "displayName": "Restore identity scopes",
+        "name": "RestoreScope",
+        "namespaceId": "5a27515b-ccd7-42c9-84f1-54c998f03866"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": "Identity",
+    "elementLength": -1,
+    "extensionType": "Microsoft.TeamFoundation.Framework.Server.IdentitySecurityNamespaceExtension",
+    "isRemotable": false,
+    "name": "Identity",
+    "namespaceId": "5a27515b-ccd7-42c9-84f1-54c998f03866",
+    "readPermission": 1,
+    "separatorValue": "\\",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 4
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Manage permissions",
+        "name": "ManagePermissions",
+        "namespaceId": "445d2788-c5fb-4132-bbef-09c4045ad93f"
+      },
+      {
+        "bit": 2,
+        "displayName": "Destroy attachments",
+        "name": "DestroyAttachments",
+        "namespaceId": "445d2788-c5fb-4132-bbef-09c4045ad93f"
+      }
+    ],
+    "dataspaceCategory": "WorkItem",
+    "displayName": "WorkItemTrackingAdministration",
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "WorkItemTrackingAdministration",
+    "namespaceId": "445d2788-c5fb-4132-bbef-09c4045ad93f",
+    "readPermission": 0,
+    "separatorValue": "\u0000",
+    "structureValue": 0,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 1
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View",
+        "name": "View",
+        "namespaceId": "101eae8c-1709-47f9-b228-0e476c35b3ba"
+      },
+      {
+        "bit": 2,
+        "displayName": "Manage",
+        "name": "Manage",
+        "namespaceId": "101eae8c-1709-47f9-b228-0e476c35b3ba"
+      },
+      {
+        "bit": 4,
+        "displayName": "Listen",
+        "name": "Listen",
+        "namespaceId": "101eae8c-1709-47f9-b228-0e476c35b3ba"
+      },
+      {
+        "bit": 8,
+        "displayName": "Administer Permissions",
+        "name": "AdministerPermissions",
+        "namespaceId": "101eae8c-1709-47f9-b228-0e476c35b3ba"
+      },
+      {
+        "bit": 16,
+        "displayName": "Use",
+        "name": "Use",
+        "namespaceId": "101eae8c-1709-47f9-b228-0e476c35b3ba"
+      },
+      {
+        "bit": 32,
+        "displayName": "Create",
+        "name": "Create",
+        "namespaceId": "101eae8c-1709-47f9-b228-0e476c35b3ba"
+      }
+    ],
+    "dataspaceCategory": "DistributedTask",
+    "displayName": "DistributedTask",
+    "elementLength": -1,
+    "extensionType": "Microsoft.TeamFoundation.DistributedTask.Server.Extensions.TaskSecurityExtension",
+    "isRemotable": true,
+    "name": "DistributedTask",
+    "namespaceId": "101eae8c-1709-47f9-b228-0e476c35b3ba",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 8
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Administer",
+        "name": "Administer",
+        "namespaceId": "2e9eb7ed-3c0a-47d4-87c1-0ffdd275fd87"
+      },
+      {
+        "bit": 2,
+        "displayName": "Read",
+        "name": "GenericRead",
+        "namespaceId": "2e9eb7ed-3c0a-47d4-87c1-0ffdd275fd87"
+      },
+      {
+        "bit": 4,
+        "displayName": "Contribute",
+        "name": "GenericContribute",
+        "namespaceId": "2e9eb7ed-3c0a-47d4-87c1-0ffdd275fd87"
+      },
+      {
+        "bit": 8,
+        "displayName": "Force push (rewrite history, delete branches and tags)",
+        "name": "ForcePush",
+        "namespaceId": "2e9eb7ed-3c0a-47d4-87c1-0ffdd275fd87"
+      },
+      {
+        "bit": 16,
+        "displayName": "Create branch",
+        "name": "CreateBranch",
+        "namespaceId": "2e9eb7ed-3c0a-47d4-87c1-0ffdd275fd87"
+      },
+      {
+        "bit": 32,
+        "displayName": "Create tag",
+        "name": "CreateTag",
+        "namespaceId": "2e9eb7ed-3c0a-47d4-87c1-0ffdd275fd87"
+      },
+      {
+        "bit": 64,
+        "displayName": "Manage notes",
+        "name": "ManageNote",
+        "namespaceId": "2e9eb7ed-3c0a-47d4-87c1-0ffdd275fd87"
+      },
+      {
+        "bit": 128,
+        "displayName": "Bypass policies when pushing",
+        "name": "PolicyExempt",
+        "namespaceId": "2e9eb7ed-3c0a-47d4-87c1-0ffdd275fd87"
+      },
+      {
+        "bit": 256,
+        "displayName": "Create repository",
+        "name": "CreateRepository",
+        "namespaceId": "2e9eb7ed-3c0a-47d4-87c1-0ffdd275fd87"
+      },
+      {
+        "bit": 512,
+        "displayName": "Delete repository",
+        "name": "DeleteRepository",
+        "namespaceId": "2e9eb7ed-3c0a-47d4-87c1-0ffdd275fd87"
+      },
+      {
+        "bit": 1024,
+        "displayName": "Rename repository",
+        "name": "RenameRepository",
+        "namespaceId": "2e9eb7ed-3c0a-47d4-87c1-0ffdd275fd87"
+      },
+      {
+        "bit": 2048,
+        "displayName": "Edit policies",
+        "name": "EditPolicies",
+        "namespaceId": "2e9eb7ed-3c0a-47d4-87c1-0ffdd275fd87"
+      },
+      {
+        "bit": 4096,
+        "displayName": "Remove others' locks",
+        "name": "RemoveOthersLocks",
+        "namespaceId": "2e9eb7ed-3c0a-47d4-87c1-0ffdd275fd87"
+      },
+      {
+        "bit": 8192,
+        "displayName": "Manage permissions",
+        "name": "ManagePermissions",
+        "namespaceId": "2e9eb7ed-3c0a-47d4-87c1-0ffdd275fd87"
+      },
+      {
+        "bit": 16384,
+        "displayName": "Contribute to pull requests",
+        "name": "PullRequestContribute",
+        "namespaceId": "2e9eb7ed-3c0a-47d4-87c1-0ffdd275fd87"
+      },
+      {
+        "bit": 32768,
+        "displayName": "Bypass policies when completing pull requests",
+        "name": "PullRequestBypassPolicy",
+        "namespaceId": "2e9eb7ed-3c0a-47d4-87c1-0ffdd275fd87"
+      }
+    ],
+    "dataspaceCategory": "Git",
+    "displayName": "Git Repositories",
+    "elementLength": -1,
+    "extensionType": "Microsoft.TeamFoundation.Git.Server.Plugins.GitSecurityNamespaceExtension",
+    "isRemotable": true,
+    "name": "Git Repositories",
+    "namespaceId": "2e9eb7ed-3c0a-47d4-87c1-0ffdd275fd87",
+    "readPermission": 2,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": true,
+    "writePermission": 8192
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Read",
+        "name": "Read",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      },
+      {
+        "bit": 2,
+        "displayName": "Pend a change in a server workspace",
+        "name": "PendChange",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      },
+      {
+        "bit": 4,
+        "displayName": "Check in",
+        "name": "Checkin",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      },
+      {
+        "bit": 8,
+        "displayName": "Label",
+        "name": "Label",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      },
+      {
+        "bit": 16,
+        "displayName": "Lock",
+        "name": "Lock",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      },
+      {
+        "bit": 32,
+        "displayName": "Revise other users' changes",
+        "name": "ReviseOther",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      },
+      {
+        "bit": 64,
+        "displayName": "Unlock other users' changes",
+        "name": "UnlockOther",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      },
+      {
+        "bit": 128,
+        "displayName": "Undo other users' changes",
+        "name": "UndoOther",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      },
+      {
+        "bit": 256,
+        "displayName": "Administer labels",
+        "name": "LabelOther",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      },
+      {
+        "bit": 1024,
+        "displayName": "Manage permissions",
+        "name": "AdminProjectRights",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      },
+      {
+        "bit": 2048,
+        "displayName": "Check in other users' changes",
+        "name": "CheckinOther",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      },
+      {
+        "bit": 4096,
+        "displayName": "Merge",
+        "name": "Merge",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      },
+      {
+        "bit": 8192,
+        "displayName": "Manage branch",
+        "name": "ManageBranch",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      }
+    ],
+    "dataspaceCategory": "VersionControl",
+    "displayName": "VersionControlItems2",
+    "elementLength": -1,
+    "extensionType": "Microsoft.TeamFoundation.VersionControl.Server.PlugIns.RepositorySecurityNamespaceExtension",
+    "isRemotable": true,
+    "name": "VersionControlItems2",
+    "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": true,
+    "writePermission": 1024
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View",
+        "name": "GENERIC_READ",
+        "namespaceId": "2bf24a2b-70ba-43d3-ad97-3d9e1f75622f"
+      },
+      {
+        "bit": 2,
+        "displayName": "Edit",
+        "name": "GENERIC_WRITE",
+        "namespaceId": "2bf24a2b-70ba-43d3-ad97-3d9e1f75622f"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": "EventSubscriber",
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": true,
+    "name": "EventSubscriber",
+    "namespaceId": "2bf24a2b-70ba-43d3-ad97-3d9e1f75622f",
+    "readPermission": 1,
+    "separatorValue": ":",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 2
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Administer",
+        "name": "Administer",
+        "namespaceId": "5a6cd233-6615-414d-9393-48dbb252bd23"
+      },
+      {
+        "bit": 2,
+        "displayName": "Manage work item link types",
+        "name": "ManageLinkTypes",
+        "namespaceId": "5a6cd233-6615-414d-9393-48dbb252bd23"
+      }
+    ],
+    "dataspaceCategory": "WorkItem",
+    "displayName": "WorkItemTrackingProvision",
+    "elementLength": -1,
+    "extensionType": "Microsoft.TeamFoundation.WorkItemTracking.Server.WitProvisionSecurityExtension",
+    "isRemotable": false,
+    "name": "WorkItemTrackingProvision",
+    "namespaceId": "5a6cd233-6615-414d-9393-48dbb252bd23",
+    "readPermission": 0,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": true,
+    "writePermission": 1
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Use Service Connection",
+        "name": "Use",
+        "namespaceId": "49b48001-ca20-4adc-8111-5b60c903a50c"
+      },
+      {
+        "bit": 2,
+        "displayName": "Administer Service Connection",
+        "name": "Administer",
+        "namespaceId": "49b48001-ca20-4adc-8111-5b60c903a50c"
+      },
+      {
+        "bit": 4,
+        "displayName": "Create Service Connection",
+        "name": "Create",
+        "namespaceId": "49b48001-ca20-4adc-8111-5b60c903a50c"
+      },
+      {
+        "bit": 8,
+        "displayName": "View Authorization",
+        "name": "ViewAuthorization",
+        "namespaceId": "49b48001-ca20-4adc-8111-5b60c903a50c"
+      },
+      {
+        "bit": 16,
+        "displayName": "View Service Connection",
+        "name": "ViewEndpoint",
+        "namespaceId": "49b48001-ca20-4adc-8111-5b60c903a50c"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": "ServiceEndpoints",
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "ServiceEndpoints",
+    "namespaceId": "49b48001-ca20-4adc-8111-5b60c903a50c",
+    "readPermission": 0,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": true,
+    "writePermission": 2
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View Subscriptions",
+        "name": "ViewSubscriptions",
+        "namespaceId": "cb594ebe-87dd-4fc9-ac2c-6a10a4c92046"
+      },
+      {
+        "bit": 2,
+        "displayName": "Edit Subscription",
+        "name": "EditSubscriptions",
+        "namespaceId": "cb594ebe-87dd-4fc9-ac2c-6a10a4c92046"
+      },
+      {
+        "bit": 4,
+        "displayName": "Delete Subscriptions",
+        "name": "DeleteSubscriptions",
+        "namespaceId": "cb594ebe-87dd-4fc9-ac2c-6a10a4c92046"
+      },
+      {
+        "bit": 8,
+        "displayName": "Publish Events",
+        "name": "PublishEvents",
+        "namespaceId": "cb594ebe-87dd-4fc9-ac2c-6a10a4c92046"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": "ServiceHooks",
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": true,
+    "name": "ServiceHooks",
+    "namespaceId": "cb594ebe-87dd-4fc9-ac2c-6a10a4c92046",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": true,
+    "writePermission": 7
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View collection-level information",
+        "name": "GENERIC_READ",
+        "namespaceId": "3e65f728-f8bc-4ecd-8764-7e378b19bfa7"
+      },
+      {
+        "bit": 2,
+        "displayName": "Edit collection-level information",
+        "name": "GENERIC_WRITE",
+        "namespaceId": "3e65f728-f8bc-4ecd-8764-7e378b19bfa7"
+      },
+      {
+        "bit": 4,
+        "displayName": "Create new projects",
+        "name": "CREATE_PROJECTS",
+        "namespaceId": "3e65f728-f8bc-4ecd-8764-7e378b19bfa7"
+      },
+      {
+        "bit": 16,
+        "displayName": "Trigger events",
+        "name": "TRIGGER_EVENT",
+        "namespaceId": "3e65f728-f8bc-4ecd-8764-7e378b19bfa7"
+      },
+      {
+        "bit": 32,
+        "displayName": "Manage process template",
+        "name": "MANAGE_TEMPLATE",
+        "namespaceId": "3e65f728-f8bc-4ecd-8764-7e378b19bfa7"
+      },
+      {
+        "bit": 64,
+        "displayName": "Alter trace settings",
+        "name": "DIAGNOSTIC_TRACE",
+        "namespaceId": "3e65f728-f8bc-4ecd-8764-7e378b19bfa7"
+      },
+      {
+        "bit": 128,
+        "displayName": "View system synchronization information",
+        "name": "SYNCHRONIZE_READ",
+        "namespaceId": "3e65f728-f8bc-4ecd-8764-7e378b19bfa7"
+      },
+      {
+        "bit": 512,
+        "displayName": "Manage test controllers",
+        "name": "MANAGE_TEST_CONTROLLERS",
+        "namespaceId": "3e65f728-f8bc-4ecd-8764-7e378b19bfa7"
+      },
+      {
+        "bit": 1024,
+        "displayName": "Delete field from organization",
+        "name": "DELETE_FIELD",
+        "namespaceId": "3e65f728-f8bc-4ecd-8764-7e378b19bfa7"
+      },
+      {
+        "bit": 2048,
+        "displayName": "Manage enterprise policies",
+        "name": "MANAGE_ENTERPRISE_POLICIES",
+        "namespaceId": "3e65f728-f8bc-4ecd-8764-7e378b19bfa7"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": "Collection",
+    "elementLength": -1,
+    "extensionType": "Microsoft.TeamFoundation.ApplicationTier.Plugins.Core.NamespaceSecurityExtension",
+    "isRemotable": true,
+    "name": "Collection",
+    "namespaceId": "3e65f728-f8bc-4ecd-8764-7e378b19bfa7",
+    "readPermission": 1,
+    "separatorValue": ":",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 2
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Read proxies",
+        "name": "Read",
+        "namespaceId": "cb4d56d2-e84b-457e-8845-81320a133fbb"
+      },
+      {
+        "bit": 2,
+        "displayName": "Manage proxies",
+        "name": "Manage",
+        "namespaceId": "cb4d56d2-e84b-457e-8845-81320a133fbb"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": "Proxy",
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "Proxy",
+    "namespaceId": "cb4d56d2-e84b-457e-8845-81320a133fbb",
+    "readPermission": 1,
+    "separatorValue": "\u0000",
+    "structureValue": 0,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 2
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View",
+        "name": "View",
+        "namespaceId": "bed337f8-e5f3-4fb9-80da-81e17d06e7a8"
+      },
+      {
+        "bit": 2,
+        "displayName": "Edit",
+        "name": "Edit",
+        "namespaceId": "bed337f8-e5f3-4fb9-80da-81e17d06e7a8"
+      },
+      {
+        "bit": 4,
+        "displayName": "Delete",
+        "name": "Delete",
+        "namespaceId": "bed337f8-e5f3-4fb9-80da-81e17d06e7a8"
+      },
+      {
+        "bit": 8,
+        "displayName": "Manage",
+        "name": "Manage",
+        "namespaceId": "bed337f8-e5f3-4fb9-80da-81e17d06e7a8"
+      }
+    ],
+    "dataspaceCategory": "WorkItem",
+    "displayName": "Plan",
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "Plan",
+    "namespaceId": "bed337f8-e5f3-4fb9-80da-81e17d06e7a8",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 8
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Edit process",
+        "name": "Edit",
+        "namespaceId": "2dab47f9-bd70-49ed-9bd5-8eb051e59c02"
+      },
+      {
+        "bit": 2,
+        "displayName": "Delete process",
+        "name": "Delete",
+        "namespaceId": "2dab47f9-bd70-49ed-9bd5-8eb051e59c02"
+      },
+      {
+        "bit": 4,
+        "displayName": "Create process",
+        "name": "Create",
+        "namespaceId": "2dab47f9-bd70-49ed-9bd5-8eb051e59c02"
+      },
+      {
+        "bit": 8,
+        "displayName": "Administer process permissions",
+        "name": "AdministerProcessPermissions",
+        "namespaceId": "2dab47f9-bd70-49ed-9bd5-8eb051e59c02"
+      },
+      {
+        "bit": 16,
+        "displayName": "View Process",
+        "name": "ReadProcessPermissions",
+        "namespaceId": "2dab47f9-bd70-49ed-9bd5-8eb051e59c02"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": "Process",
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "Process",
+    "namespaceId": "2dab47f9-bd70-49ed-9bd5-8eb051e59c02",
+    "readPermission": 16,
+    "separatorValue": ":",
+    "structureValue": 1,
+    "systemBitMask": 16,
+    "useTokenTranslator": false,
+    "writePermission": 8
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Read account resource",
+        "name": "Read",
+        "namespaceId": "11238e09-49f2-40c7-94d0-8f0307204ce4"
+      },
+      {
+        "bit": 2,
+        "displayName": "Create account resource",
+        "name": "Create",
+        "namespaceId": "11238e09-49f2-40c7-94d0-8f0307204ce4"
+      },
+      {
+        "bit": 4,
+        "displayName": "Modify account resource",
+        "name": "Modify",
+        "namespaceId": "11238e09-49f2-40c7-94d0-8f0307204ce4"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": "AccountAdminSecurity",
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "AccountAdminSecurity",
+    "namespaceId": "11238e09-49f2-40c7-94d0-8f0307204ce4",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 15
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View library item",
+        "name": "View",
+        "namespaceId": "b7e84409-6553-448a-bbb2-af228e07cbeb"
+      },
+      {
+        "bit": 2,
+        "displayName": "Administer library item",
+        "name": "Administer",
+        "namespaceId": "b7e84409-6553-448a-bbb2-af228e07cbeb"
+      },
+      {
+        "bit": 4,
+        "displayName": "Create library item",
+        "name": "Create",
+        "namespaceId": "b7e84409-6553-448a-bbb2-af228e07cbeb"
+      },
+      {
+        "bit": 8,
+        "displayName": "View library item secrets",
+        "name": "ViewSecrets",
+        "namespaceId": "b7e84409-6553-448a-bbb2-af228e07cbeb"
+      },
+      {
+        "bit": 16,
+        "displayName": "Use library item",
+        "name": "Use",
+        "namespaceId": "b7e84409-6553-448a-bbb2-af228e07cbeb"
+      },
+      {
+        "bit": 32,
+        "displayName": "Owner",
+        "name": "Owner",
+        "namespaceId": "b7e84409-6553-448a-bbb2-af228e07cbeb"
+      }
+    ],
+    "dataspaceCategory": "DistributedTask",
+    "displayName": "Library",
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "Library",
+    "namespaceId": "b7e84409-6553-448a-bbb2-af228e07cbeb",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": true,
+    "writePermission": 2
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View",
+        "name": "View",
+        "namespaceId": "83d4c2e6-e57d-4d6e-892b-b87222b7ad20"
+      },
+      {
+        "bit": 2,
+        "displayName": "Manage",
+        "name": "Manage",
+        "namespaceId": "83d4c2e6-e57d-4d6e-892b-b87222b7ad20"
+      },
+      {
+        "bit": 4,
+        "displayName": "Manage history",
+        "name": "ManageHistory",
+        "namespaceId": "83d4c2e6-e57d-4d6e-892b-b87222b7ad20"
+      },
+      {
+        "bit": 8,
+        "displayName": "Administer Permissions",
+        "name": "Administer",
+        "namespaceId": "83d4c2e6-e57d-4d6e-892b-b87222b7ad20"
+      },
+      {
+        "bit": 16,
+        "displayName": "Use",
+        "name": "Use",
+        "namespaceId": "83d4c2e6-e57d-4d6e-892b-b87222b7ad20"
+      },
+      {
+        "bit": 32,
+        "displayName": "Create",
+        "name": "Create",
+        "namespaceId": "83d4c2e6-e57d-4d6e-892b-b87222b7ad20"
+      }
+    ],
+    "dataspaceCategory": "DistributedTask",
+    "displayName": "Environment",
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": true,
+    "name": "Environment",
+    "namespaceId": "83d4c2e6-e57d-4d6e-892b-b87222b7ad20",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": true,
+    "writePermission": 8
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View project-level information",
+        "name": "GENERIC_READ",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      },
+      {
+        "bit": 2,
+        "displayName": "Edit project-level information",
+        "name": "GENERIC_WRITE",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      },
+      {
+        "bit": 4,
+        "displayName": "Delete team project",
+        "name": "DELETE",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      },
+      {
+        "bit": 8,
+        "displayName": "Create test runs",
+        "name": "PUBLISH_TEST_RESULTS",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      },
+      {
+        "bit": 16,
+        "displayName": "Administer a build",
+        "name": "ADMINISTER_BUILD",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      },
+      {
+        "bit": 32,
+        "displayName": "Start a build",
+        "name": "START_BUILD",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      },
+      {
+        "bit": 64,
+        "displayName": "Edit build quality",
+        "name": "EDIT_BUILD_STATUS",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      },
+      {
+        "bit": 128,
+        "displayName": "Write to build operational store",
+        "name": "UPDATE_BUILD",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      },
+      {
+        "bit": 256,
+        "displayName": "Delete test runs",
+        "name": "DELETE_TEST_RESULTS",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      },
+      {
+        "bit": 512,
+        "displayName": "View test runs",
+        "name": "VIEW_TEST_RESULTS",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      },
+      {
+        "bit": 2048,
+        "displayName": "Manage test environments",
+        "name": "MANAGE_TEST_ENVIRONMENTS",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      },
+      {
+        "bit": 4096,
+        "displayName": "Manage test configurations",
+        "name": "MANAGE_TEST_CONFIGURATIONS",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      },
+      {
+        "bit": 8192,
+        "displayName": "Delete and restore work items",
+        "name": "WORK_ITEM_DELETE",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      },
+      {
+        "bit": 16384,
+        "displayName": "Move work items out of this project",
+        "name": "WORK_ITEM_MOVE",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      },
+      {
+        "bit": 32768,
+        "displayName": "Permanently delete work items",
+        "name": "WORK_ITEM_PERMANENTLY_DELETE",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      },
+      {
+        "bit": 65536,
+        "displayName": "Rename team project",
+        "name": "RENAME",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      },
+      {
+        "bit": 131072,
+        "displayName": "Manage project properties",
+        "name": "MANAGE_PROPERTIES",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      },
+      {
+        "bit": 262144,
+        "displayName": "Manage system project properties",
+        "name": "MANAGE_SYSTEM_PROPERTIES",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      },
+      {
+        "bit": 524288,
+        "displayName": "Bypass project property cache",
+        "name": "BYPASS_PROPERTY_CACHE",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      },
+      {
+        "bit": 1048576,
+        "displayName": "Bypass rules on work item updates",
+        "name": "BYPASS_RULES",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      },
+      {
+        "bit": 2097152,
+        "displayName": "Suppress notifications for work item updates",
+        "name": "SUPPRESS_NOTIFICATIONS",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      },
+      {
+        "bit": 4194304,
+        "displayName": "Update project visibility",
+        "name": "UPDATE_VISIBILITY",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      },
+      {
+        "bit": 8388608,
+        "displayName": "Change process of team project.",
+        "name": "CHANGE_PROCESS",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      },
+      {
+        "bit": 16777216,
+        "displayName": "Agile backlog management.",
+        "name": "AGILETOOLS_BACKLOG",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      },
+      {
+        "bit": 33554432,
+        "displayName": "Agile plans.",
+        "name": "AGILETOOLS_PLANS",
+        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": "Project",
+    "elementLength": -1,
+    "extensionType": "Microsoft.TeamFoundation.ApplicationTier.Plugins.Core.ProjectSecurityExtension",
+    "isRemotable": true,
+    "name": "Project",
+    "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819",
+    "readPermission": 1,
+    "separatorValue": ":",
+    "structureValue": 1,
+    "systemBitMask": 51118080,
+    "useTokenTranslator": true,
+    "writePermission": 2
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View",
+        "name": "GENERIC_READ",
+        "namespaceId": "58b176e7-3411-457a-89d0-c6d0ccb3c52b"
+      },
+      {
+        "bit": 2,
+        "displayName": "Edit",
+        "name": "GENERIC_WRITE",
+        "namespaceId": "58b176e7-3411-457a-89d0-c6d0ccb3c52b"
+      },
+      {
+        "bit": 4,
+        "displayName": "Unsubscribe",
+        "name": "UNSUBSCRIBE",
+        "namespaceId": "58b176e7-3411-457a-89d0-c6d0ccb3c52b"
+      },
+      {
+        "bit": 8,
+        "displayName": "Create a SOAP subscription",
+        "name": "CREATE_SOAP_SUBSCRIPTION",
+        "namespaceId": "58b176e7-3411-457a-89d0-c6d0ccb3c52b"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": "EventSubscription",
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "EventSubscription",
+    "namespaceId": "58b176e7-3411-457a-89d0-c6d0ccb3c52b",
+    "readPermission": 1,
+    "separatorValue": ":",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 2
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View permissions for this node",
+        "name": "GENERIC_READ",
+        "namespaceId": "83e28ad4-2d72-4ceb-97b0-c7726d5502c3"
+      },
+      {
+        "bit": 2,
+        "displayName": "Edit this node",
+        "name": "GENERIC_WRITE",
+        "namespaceId": "83e28ad4-2d72-4ceb-97b0-c7726d5502c3"
+      },
+      {
+        "bit": 4,
+        "displayName": "Create child nodes",
+        "name": "CREATE_CHILDREN",
+        "namespaceId": "83e28ad4-2d72-4ceb-97b0-c7726d5502c3"
+      },
+      {
+        "bit": 8,
+        "displayName": "Delete this node",
+        "name": "DELETE",
+        "namespaceId": "83e28ad4-2d72-4ceb-97b0-c7726d5502c3"
+      },
+      {
+        "bit": 16,
+        "displayName": "View work items in this node",
+        "name": "WORK_ITEM_READ",
+        "namespaceId": "83e28ad4-2d72-4ceb-97b0-c7726d5502c3"
+      },
+      {
+        "bit": 32,
+        "displayName": "Edit work items in this node",
+        "name": "WORK_ITEM_WRITE",
+        "namespaceId": "83e28ad4-2d72-4ceb-97b0-c7726d5502c3"
+      },
+      {
+        "bit": 64,
+        "displayName": "Manage test plans",
+        "name": "MANAGE_TEST_PLANS",
+        "namespaceId": "83e28ad4-2d72-4ceb-97b0-c7726d5502c3"
+      },
+      {
+        "bit": 128,
+        "displayName": "Manage test suites",
+        "name": "MANAGE_TEST_SUITES",
+        "namespaceId": "83e28ad4-2d72-4ceb-97b0-c7726d5502c3"
+      }
+    ],
+    "dataspaceCategory": "Integration",
+    "displayName": "CSS",
+    "elementLength": -1,
+    "extensionType": "Microsoft.Azure.Boards.Plugins.Security.CSSNodeSecurityExtension",
+    "isRemotable": true,
+    "name": "CSS",
+    "namespaceId": "83e28ad4-2d72-4ceb-97b0-c7726d5502c3",
+    "readPermission": 1,
+    "separatorValue": ":",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": true,
+    "writePermission": 2
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Read",
+        "name": "Read",
+        "namespaceId": "9e4894c3-ff9a-4eac-8a85-ce11cafdc6f1"
+      },
+      {
+        "bit": 2,
+        "displayName": "Create",
+        "name": "Create",
+        "namespaceId": "9e4894c3-ff9a-4eac-8a85-ce11cafdc6f1"
+      },
+      {
+        "bit": 4,
+        "displayName": "Write",
+        "name": "Write",
+        "namespaceId": "9e4894c3-ff9a-4eac-8a85-ce11cafdc6f1"
+      },
+      {
+        "bit": 8,
+        "displayName": "Edit",
+        "name": "Edit",
+        "namespaceId": "9e4894c3-ff9a-4eac-8a85-ce11cafdc6f1"
+      },
+      {
+        "bit": 16,
+        "displayName": "Delete",
+        "name": "Delete",
+        "namespaceId": "9e4894c3-ff9a-4eac-8a85-ce11cafdc6f1"
+      },
+      {
+        "bit": 32,
+        "displayName": "Start",
+        "name": "Start",
+        "namespaceId": "9e4894c3-ff9a-4eac-8a85-ce11cafdc6f1"
+      },
+      {
+        "bit": 64,
+        "displayName": "Stop",
+        "name": "Stop",
+        "namespaceId": "9e4894c3-ff9a-4eac-8a85-ce11cafdc6f1"
+      },
+      {
+        "bit": 128,
+        "displayName": "Pause",
+        "name": "Pause",
+        "namespaceId": "9e4894c3-ff9a-4eac-8a85-ce11cafdc6f1"
+      },
+      {
+        "bit": 256,
+        "displayName": "ManageSnapshots",
+        "name": "ManageSnapshots",
+        "namespaceId": "9e4894c3-ff9a-4eac-8a85-ce11cafdc6f1"
+      },
+      {
+        "bit": 512,
+        "displayName": "ManageLocation",
+        "name": "ManageLocation",
+        "namespaceId": "9e4894c3-ff9a-4eac-8a85-ce11cafdc6f1"
+      },
+      {
+        "bit": 1024,
+        "displayName": "DeleteLocation",
+        "name": "DeleteLocation",
+        "namespaceId": "9e4894c3-ff9a-4eac-8a85-ce11cafdc6f1"
+      },
+      {
+        "bit": 2048,
+        "displayName": "ManagePermissions",
+        "name": "ManagePermissions",
+        "namespaceId": "9e4894c3-ff9a-4eac-8a85-ce11cafdc6f1"
+      },
+      {
+        "bit": 4096,
+        "displayName": "ManageChildPermissions",
+        "name": "ManageChildPermissions",
+        "namespaceId": "9e4894c3-ff9a-4eac-8a85-ce11cafdc6f1"
+      },
+      {
+        "bit": 8192,
+        "displayName": "ManageTestMachines",
+        "name": "ManageTestMachines",
+        "namespaceId": "9e4894c3-ff9a-4eac-8a85-ce11cafdc6f1"
+      }
+    ],
+    "dataspaceCategory": "LabExecution",
+    "displayName": "TeamLabSecurity",
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "TeamLabSecurity",
+    "namespaceId": "9e4894c3-ff9a-4eac-8a85-ce11cafdc6f1",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 2048
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View Project Analysis language metrics data",
+        "name": "Read",
+        "namespaceId": "fc5b7b85-5d6b-41eb-8534-e128cb10eb67"
+      },
+      {
+        "bit": 2,
+        "displayName": "Write Project Analysis language metrics data",
+        "name": "Write",
+        "namespaceId": "fc5b7b85-5d6b-41eb-8534-e128cb10eb67"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": "ProjectAnalysisLanguageMetrics",
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "ProjectAnalysisLanguageMetrics",
+    "namespaceId": "fc5b7b85-5d6b-41eb-8534-e128cb10eb67",
+    "readPermission": 1,
+    "separatorValue": "",
+    "structureValue": 0,
+    "systemBitMask": 0,
+    "useTokenTranslator": true,
+    "writePermission": 2
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Enumerate tag definitions",
+        "name": "Enumerate",
+        "namespaceId": "bb50f182-8e5e-40b8-bc21-e8752a1e7ae2"
+      },
+      {
+        "bit": 2,
+        "displayName": "Create tag definition",
+        "name": "Create",
+        "namespaceId": "bb50f182-8e5e-40b8-bc21-e8752a1e7ae2"
+      },
+      {
+        "bit": 4,
+        "displayName": "Update tag definition",
+        "name": "Update",
+        "namespaceId": "bb50f182-8e5e-40b8-bc21-e8752a1e7ae2"
+      },
+      {
+        "bit": 8,
+        "displayName": "Delete tag definition",
+        "name": "Delete",
+        "namespaceId": "bb50f182-8e5e-40b8-bc21-e8752a1e7ae2"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": "Tagging",
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "Tagging",
+    "namespaceId": "bb50f182-8e5e-40b8-bc21-e8752a1e7ae2",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": true,
+    "writePermission": 4
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Administer task group permissions",
+        "name": "Administer",
+        "namespaceId": "f6a4de49-dbe2-4704-86dc-f8ec1a294436"
+      },
+      {
+        "bit": 2,
+        "displayName": "Edit task group",
+        "name": "Edit",
+        "namespaceId": "f6a4de49-dbe2-4704-86dc-f8ec1a294436"
+      },
+      {
+        "bit": 4,
+        "displayName": "Delete task group",
+        "name": "Delete",
+        "namespaceId": "f6a4de49-dbe2-4704-86dc-f8ec1a294436"
+      }
+    ],
+    "dataspaceCategory": "DistributedTask",
+    "displayName": "MetaTask",
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": true,
+    "name": "MetaTask",
+    "namespaceId": "f6a4de49-dbe2-4704-86dc-f8ec1a294436",
+    "readPermission": 0,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 1
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View permissions for this node",
+        "name": "GENERIC_READ",
+        "namespaceId": "bf7bfa03-b2b7-47db-8113-fa2e002cc5b1"
+      },
+      {
+        "bit": 2,
+        "displayName": "Edit this node",
+        "name": "GENERIC_WRITE",
+        "namespaceId": "bf7bfa03-b2b7-47db-8113-fa2e002cc5b1"
+      },
+      {
+        "bit": 4,
+        "displayName": "Create child nodes",
+        "name": "CREATE_CHILDREN",
+        "namespaceId": "bf7bfa03-b2b7-47db-8113-fa2e002cc5b1"
+      },
+      {
+        "bit": 8,
+        "displayName": "Delete this node",
+        "name": "DELETE",
+        "namespaceId": "bf7bfa03-b2b7-47db-8113-fa2e002cc5b1"
+      }
+    ],
+    "dataspaceCategory": "Integration",
+    "displayName": "Iteration",
+    "elementLength": -1,
+    "extensionType": "Microsoft.Azure.Boards.Plugins.Security.IterationSecurityExtension",
+    "isRemotable": false,
+    "name": "Iteration",
+    "namespaceId": "bf7bfa03-b2b7-47db-8113-fa2e002cc5b1",
+    "readPermission": 1,
+    "separatorValue": ":",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": true,
+    "writePermission": 2
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Read",
+        "name": "Read",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 2,
+        "displayName": "Contribute",
+        "name": "Contribute",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 4,
+        "displayName": "Delete",
+        "name": "Delete",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 8,
+        "displayName": "Manage Permissions",
+        "name": "ManagePermissions",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 16,
+        "displayName": "Full Control",
+        "name": "FullControl",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 64,
+        "displayName": "Record query execution information",
+        "name": "RecordQueryExecutionInfo",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "WorkItem",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "WorkItemQueryFolders",
+    "namespaceId": "71356614-aad7-4757-8f2c-0fb3bff6f680",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 64,
+    "useTokenTranslator": true,
+    "writePermission": 8
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View instance-level information",
+        "name": "GenericRead",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 2,
+        "displayName": "Edit instance-level information",
+        "name": "GenericWrite",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "Favorites",
+    "namespaceId": "fa557b48-b5bf-458a-bb2b-1b680426fe8b",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 2
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Read registry entries",
+        "name": "Read",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 2,
+        "displayName": "Write registry entries",
+        "name": "Write",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "Registry",
+    "namespaceId": "4ae0db5d-8437-4ee8-a18b-1f6fb38bd34c",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 2
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Read by public identifier",
+        "name": "ReadByPublicIdentifier",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 2,
+        "displayName": "Read by personal identifier",
+        "name": "ReadByPersonalIdentifier",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "Graph",
+    "namespaceId": "c2ee56c9-e8fa-4cdd-9d48-2c44f697a58e",
+    "readPermission": 1,
+    "separatorValue": "\u0000",
+    "structureValue": 0,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 65536
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View only entities",
+        "name": "Read",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "ViewActivityPaneSecurity",
+    "namespaceId": "dc02bf3d-cd48-46c3-8a41-345094ecc94b",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 1,
+    "useTokenTranslator": false,
+    "writePermission": 0
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View background job information",
+        "name": "Read",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 2,
+        "displayName": "Queue background jobs",
+        "name": "Queue",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 4,
+        "displayName": "Manage background jobs",
+        "name": "Update",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "Job",
+    "namespaceId": "2a887f97-db68-4b7c-9ae3-5cebd7add999",
+    "readPermission": 1,
+    "separatorValue": "\u0000",
+    "structureValue": 0,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 6
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Read WorkItemTracking",
+        "name": "Read",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 2,
+        "displayName": "Cross Project Read Of WorkItemTracking Resources",
+        "name": "CrossProjectRead",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 4,
+        "displayName": "Track work item read and write for a user",
+        "name": "TrackWorkItemActivity",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 8,
+        "displayName": "Read rules only if permissions are avaliable",
+        "name": "ReadRules",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 16,
+        "displayName": null,
+        "name": "ReadHistoricalWorkItemResources",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "WorkItemTracking",
+    "namespaceId": "73e71c45-d483-40d5-bdba-62fd076f7f87",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 31,
+    "useTokenTranslator": false,
+    "writePermission": 0
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Create a StrongBox Drawer.",
+        "name": "CreateDrawer",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 2,
+        "displayName": "Delete as StrongBox Drawer.",
+        "name": "DeleteDrawer",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 4,
+        "displayName": "Administer StrongBox Permissions.",
+        "name": "Administer",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 16,
+        "displayName": "Add Items to the StrongBox Drawer.",
+        "name": "AddItem",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 32,
+        "displayName": "Retrieve Items from the StrongBox Drawer.",
+        "name": "GetItem",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 64,
+        "displayName": "Delete Items from the StrongBox Drawer.",
+        "name": "DeleteItem",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 128,
+        "displayName": "Administer permissions for the StrongBox Drawer.",
+        "name": "AdministerDrawer",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "StrongBox",
+    "namespaceId": "4a9e8381-289a-4dfd-8460-69028eaa93b3",
+    "readPermission": 32,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 16
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View instance-level information",
+        "name": "GenericRead",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 2,
+        "displayName": "Edit instance-level information",
+        "name": "GenericWrite",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 4,
+        "displayName": "Make requests on behalf of others",
+        "name": "Impersonate",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 16,
+        "displayName": "Trigger events",
+        "name": "TriggerEvent",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": "Microsoft.TeamFoundation.Framework.Server.FrameworkSecurityNamespaceExtension",
+    "isRemotable": false,
+    "name": "Server",
+    "namespaceId": "1f4179b3-6bac-4d01-b421-71ea09171400",
+    "readPermission": 1,
+    "separatorValue": "\u0000",
+    "structureValue": 0,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 2
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Read TestManagement",
+        "name": "Read",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": true,
+    "name": "TestManagement ",
+    "namespaceId": "e06e1c24-e93d-4e4a-908a-7d951187b483",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 1,
+    "useTokenTranslator": false,
+    "writePermission": 0
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Retrieve setting entries",
+        "name": "Read",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 2,
+        "displayName": "Write setting entries",
+        "name": "Write",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "SettingEntries",
+    "namespaceId": "6ec4592e-048c-434e-8e6c-8671753a8418",
+    "readPermission": 1,
+    "separatorValue": "\u0000",
+    "structureValue": 0,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 2
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View build resources",
+        "name": "ViewBuildResources",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 2,
+        "displayName": "Manage build resources",
+        "name": "ManageBuildResources",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 4,
+        "displayName": "Use build resources",
+        "name": "UseBuildResources",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 8,
+        "displayName": "Administer build resource permissions",
+        "name": "AdministerBuildResourcePermissions",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Build",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": "Microsoft.TeamFoundation.Build.Server.BuildAdministrationSecurityExtension",
+    "isRemotable": true,
+    "name": "BuildAdministration",
+    "namespaceId": "302acaca-b667-436d-a946-87133492041c",
+    "readPermission": 0,
+    "separatorValue": "\u0000",
+    "structureValue": 0,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 8
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Read service definitions and/or access mappings.",
+        "name": "Read",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 2,
+        "displayName": "Write service definitions and/or access mappings.",
+        "name": "Write",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": "Microsoft.TeamFoundation.Framework.Server.LocationSecurityNamespaceExtension",
+    "isRemotable": false,
+    "name": "Location",
+    "namespaceId": "2725d2bc-7520-4af4-b0e3-8d876494731f",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 2
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Query Others' Usage",
+        "name": "QueryUsageSummary",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": "Microsoft.TeamFoundation.Utilization.Cloud.Plugins.UtilizationSecurityNamespaceExtension",
+    "isRemotable": false,
+    "name": "UtilizationPermissions",
+    "namespaceId": "83abde3a-4593-424e-b45f-9898af99034d",
+    "readPermission": 0,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 1024
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View work items hub",
+        "name": "View",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "WorkItemsHub",
+    "namespaceId": "c0e7a722-1cad-4ae6-b340-a8467501e7ce",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 1,
+    "useTokenTranslator": false,
+    "writePermission": 0
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View web platform entities",
+        "name": "Read",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "WebPlatform",
+    "namespaceId": "0582eb05-c896-449a-b933-aa3d99e121d6",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 1,
+    "useTokenTranslator": false,
+    "writePermission": 0
+  },
+  {
+    "actions": [
+      {
+        "bit": 2,
+        "displayName": "Create a workspace",
+        "name": "CreateWorkspace",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 4,
+        "displayName": "Administer workspaces",
+        "name": "AdminWorkspaces",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 8,
+        "displayName": "Administer shelved changes",
+        "name": "AdminShelvesets",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 16,
+        "displayName": "Administer source control connections",
+        "name": "AdminConnections",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 32,
+        "displayName": "Administer source control configurations",
+        "name": "AdminConfiguration",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "VersionControl",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": "Microsoft.TeamFoundation.VersionControl.Server.PlugIns.PrivilegeSecurityNamespaceExtension",
+    "isRemotable": false,
+    "name": "VersionControlPrivileges",
+    "namespaceId": "66312704-deb5-43f9-b51c-ab4ff5e351c3",
+    "readPermission": 0,
+    "separatorValue": "\u0000",
+    "structureValue": 0,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 32
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View workspace information",
+        "name": "Read",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 2,
+        "displayName": "Use the workspace",
+        "name": "Use",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 4,
+        "displayName": "Check in changes to the workspace",
+        "name": "Checkin",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 8,
+        "displayName": "Administer the workspace",
+        "name": "Administer",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "VersionControl",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": "Microsoft.TeamFoundation.VersionControl.Server.PlugIns.WorkspaceSecurityNamespaceExtension",
+    "isRemotable": false,
+    "name": "Workspaces",
+    "namespaceId": "93bafc04-9075-403a-9367-b7164eac6b5c",
+    "readPermission": 0,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 8
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View instance-level information",
+        "name": "GenericRead",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "CrossProjectWidgetView",
+    "namespaceId": "093cbb02-722b-4ad6-9f88-bc452043fa63",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 0
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View work item tracking configuration",
+        "name": "Read",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "WorkItemTrackingConfiguration",
+    "namespaceId": "35e35e8e-686d-4b01-aff6-c369d6e36ce0",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 1,
+    "useTokenTranslator": false,
+    "writePermission": 0
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Manage discussion permissions",
+        "name": "Administer",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 2,
+        "displayName": "View discussions",
+        "name": "GenericRead",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 4,
+        "displayName": "Contribute to discussions",
+        "name": "GenericContribute",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 8,
+        "displayName": "Moderate discussions",
+        "name": "Moderate",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Discussion",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "Discussion Threads",
+    "namespaceId": "0d140cae-8ac1-4f48-b6d1-c93ce0301a12",
+    "readPermission": 2,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 1
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View boards external integrations",
+        "name": "Read",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 2,
+        "displayName": "Write boards external integrations",
+        "name": "Write",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "BoardsExternalIntegration",
+    "namespaceId": "5ab15bc8-4ea1-d0f3-8344-cab8fe976877",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 2
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View data provider entities",
+        "name": "Read",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "DataProvider",
+    "namespaceId": "7ffa7cf4-317c-4fea-8f1d-cfda50cfa956",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 1,
+    "useTokenTranslator": false,
+    "writePermission": 0
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View instance-level information",
+        "name": "GenericRead",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 2,
+        "displayName": "Edit instance-level information",
+        "name": "GenericWrite",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "Social",
+    "namespaceId": "81c27cc8-7a9f-48ee-b63f-df1e1d0412dd",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 2
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Read",
+        "name": "Read",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "Security",
+    "namespaceId": "9a82c708-bfbe-4f31-984c-e860c2196781",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 65536
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Read basic Identity Picker properties",
+        "name": "ReadBasic",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 2,
+        "displayName": "Read restricted Identity Picker properties",
+        "name": "ReadRestricted",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "IdentityPicker",
+    "namespaceId": "a60e0d84-c2f8-48e4-9c0c-f32da48d5fd1",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 0,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 0
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View Servicing Orchestration information",
+        "name": "Read",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 2,
+        "displayName": "Queue Servicing Orchestration jobs",
+        "name": "Queue",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 4,
+        "displayName": "Cancel Servicing Orchestration jobs",
+        "name": "Cancel",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "ServicingOrchestration",
+    "namespaceId": "84cc1aa4-15bc-423d-90d9-f97c450fc729",
+    "readPermission": 4096,
+    "separatorValue": "\u0000",
+    "structureValue": 0,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 2048
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View builds",
+        "name": "ViewBuilds",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 2,
+        "displayName": "Edit build quality",
+        "name": "EditBuildQuality",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 4,
+        "displayName": "Retain indefinitely",
+        "name": "RetainIndefinitely",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 8,
+        "displayName": "Delete builds ",
+        "name": "DeleteBuilds",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 16,
+        "displayName": "Manage build qualities",
+        "name": "ManageBuildQualities",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 32,
+        "displayName": "Destroy builds",
+        "name": "DestroyBuilds",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 64,
+        "displayName": "Update build information",
+        "name": "UpdateBuildInformation",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 128,
+        "displayName": "Queue builds",
+        "name": "QueueBuilds",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 256,
+        "displayName": "Manage build queue",
+        "name": "ManageBuildQueue",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 512,
+        "displayName": "Stop builds",
+        "name": "StopBuilds",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 1024,
+        "displayName": "View build pipeline",
+        "name": "ViewBuildDefinition",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 2048,
+        "displayName": "Edit build pipeline",
+        "name": "EditBuildDefinition",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 4096,
+        "displayName": "Delete build pipeline",
+        "name": "DeleteBuildDefinition",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 8192,
+        "displayName": "Override check-in validation by build",
+        "name": "OverrideBuildCheckInValidation",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 16384,
+        "displayName": "Administer build permissions",
+        "name": "AdministerBuildPermissions",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Build",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": "Microsoft.TeamFoundation.Build.Server.BuildSecurityExtension",
+    "isRemotable": true,
+    "name": "Build",
+    "namespaceId": "33344d9c-fc72-4d6f-aba5-fa317101a7e9",
+    "readPermission": 0,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": true,
+    "writePermission": 16384
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Read",
+        "name": "Read",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 2,
+        "displayName": "Create dashboard",
+        "name": "Create",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 4,
+        "displayName": "Edit dashboard",
+        "name": "Edit",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 8,
+        "displayName": "Delete dashboard",
+        "name": "Delete",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 16,
+        "displayName": "ManagePermissions",
+        "name": "ManagePermissions",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 32,
+        "displayName": "Materialize Dashboards",
+        "name": "MaterializeDashboards",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": "Microsoft.TeamFoundation.Framework.Server.DashboardsPrivilegesExtension",
+    "isRemotable": false,
+    "name": "DashboardsPrivileges",
+    "namespaceId": "8adf73b7-389a-4276-b638-fe1653f7efc7",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 16
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "Read",
+        "name": "Read",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      },
+      {
+        "bit": 2,
+        "displayName": "Pend a change in a server workspace",
+        "name": "PendChange",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      },
+      {
+        "bit": 4,
+        "displayName": "Check in",
+        "name": "Checkin",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      },
+      {
+        "bit": 8,
+        "displayName": "Label",
+        "name": "Label",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      },
+      {
+        "bit": 16,
+        "displayName": "Lock",
+        "name": "Lock",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      },
+      {
+        "bit": 32,
+        "displayName": "Revise other users' changes",
+        "name": "ReviseOther",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      },
+      {
+        "bit": 64,
+        "displayName": "Unlock other users' changes",
+        "name": "UnlockOther",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      },
+      {
+        "bit": 128,
+        "displayName": "Undo other users' changes",
+        "name": "UndoOther",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      },
+      {
+        "bit": 256,
+        "displayName": "Administer labels",
+        "name": "LabelOther",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      },
+      {
+        "bit": 1024,
+        "displayName": "Manage permissions",
+        "name": "AdminProjectRights",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      },
+      {
+        "bit": 2048,
+        "displayName": "Check in other users' changes",
+        "name": "CheckinOther",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      },
+      {
+        "bit": 4096,
+        "displayName": "Merge",
+        "name": "Merge",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      },
+      {
+        "bit": 8192,
+        "displayName": "Manage branch",
+        "name": "ManageBranch",
+        "namespaceId": "3c15a8b7-af1a-45c2-aa97-2cb97078332e"
+      }
+    ],
+    "dataspaceCategory": "VersionControl",
+    "displayName": "VersionControlItems",
+    "elementLength": -1,
+    "extensionType": "Microsoft.TeamFoundation.VersionControl.Server.PlugIns.RepositorySecurityNamespaceExtension",
+    "isRemotable": true,
+    "name": "VersionControlItems",
+    "namespaceId": "a39371cf-0841-4c16-bbd3-276e341bc052",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 1,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 1024
+  }
+]
