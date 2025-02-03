@@ -510,7 +510,7 @@
       },
       {
         "bit": 512,
-        "displayName": "Delete repository",
+        "displayName": "Delete or disable repository",
         "name": "DeleteRepository",
         "namespaceId": "2e9eb7ed-3c0a-47d4-87c1-0ffdd275fd87"
       },
@@ -548,6 +548,24 @@
         "bit": 32768,
         "displayName": "Bypass policies when completing pull requests",
         "name": "PullRequestBypassPolicy",
+        "namespaceId": "2e9eb7ed-3c0a-47d4-87c1-0ffdd275fd87"
+      },
+      {
+        "bit": 65536,
+        "displayName": "Advanced Security: view alerts",
+        "name": "ViewAdvSecAlerts",
+        "namespaceId": "2e9eb7ed-3c0a-47d4-87c1-0ffdd275fd87"
+      },
+      {
+        "bit": 131072,
+        "displayName": "Advanced Security: manage and dismiss alerts",
+        "name": "DismissAdvSecAlerts",
+        "namespaceId": "2e9eb7ed-3c0a-47d4-87c1-0ffdd275fd87"
+      },
+      {
+        "bit": 262144,
+        "displayName": "Advanced Security: manage settings",
+        "name": "ManageAdvSecScanning",
         "namespaceId": "2e9eb7ed-3c0a-47d4-87c1-0ffdd275fd87"
       }
     ],
@@ -751,7 +769,7 @@
         "namespaceId": "49b48001-ca20-4adc-8111-5b60c903a50c"
       }
     ],
-    "dataspaceCategory": "Default",
+    "dataspaceCategory": "DistributedTask",
     "displayName": "ServiceEndpoints",
     "elementLength": -1,
     "extensionType": null,
@@ -873,7 +891,7 @@
     "displayName": "Collection",
     "elementLength": -1,
     "extensionType": "Microsoft.TeamFoundation.ApplicationTier.Plugins.Core.NamespaceSecurityExtension",
-    "isRemotable": true,
+    "isRemotable": false,
     "name": "Collection",
     "namespaceId": "3e65f728-f8bc-4ecd-8764-7e378b19bfa7",
     "readPermission": 1,
@@ -1069,7 +1087,7 @@
       },
       {
         "bit": 32,
-        "displayName": "Owner",
+        "displayName": "Owner library item",
         "name": "Owner",
         "namespaceId": "b7e84409-6553-448a-bbb2-af228e07cbeb"
       }
@@ -1286,12 +1304,6 @@
         "displayName": "Agile backlog management.",
         "name": "AGILETOOLS_BACKLOG",
         "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
-      },
-      {
-        "bit": 33554432,
-        "displayName": "Agile plans.",
-        "name": "AGILETOOLS_PLANS",
-        "namespaceId": "52d39943-cb85-4d7f-8fa8-c6baac873819"
       }
     ],
     "dataspaceCategory": "Default",
@@ -1304,7 +1316,7 @@
     "readPermission": 1,
     "separatorValue": ":",
     "structureValue": 1,
-    "systemBitMask": 51118080,
+    "systemBitMask": 17563648,
     "useTokenTranslator": true,
     "writePermission": 2
   },
@@ -1355,49 +1367,55 @@
         "bit": 1,
         "displayName": "View permissions for this node",
         "name": "GENERIC_READ",
-        "namespaceId": "83e28ad4-2d72-4ceb-97b0-c7726d5502c3"
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
       },
       {
         "bit": 2,
         "displayName": "Edit this node",
         "name": "GENERIC_WRITE",
-        "namespaceId": "83e28ad4-2d72-4ceb-97b0-c7726d5502c3"
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
       },
       {
         "bit": 4,
         "displayName": "Create child nodes",
         "name": "CREATE_CHILDREN",
-        "namespaceId": "83e28ad4-2d72-4ceb-97b0-c7726d5502c3"
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
       },
       {
         "bit": 8,
         "displayName": "Delete this node",
         "name": "DELETE",
-        "namespaceId": "83e28ad4-2d72-4ceb-97b0-c7726d5502c3"
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
       },
       {
         "bit": 16,
         "displayName": "View work items in this node",
         "name": "WORK_ITEM_READ",
-        "namespaceId": "83e28ad4-2d72-4ceb-97b0-c7726d5502c3"
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
       },
       {
         "bit": 32,
         "displayName": "Edit work items in this node",
         "name": "WORK_ITEM_WRITE",
-        "namespaceId": "83e28ad4-2d72-4ceb-97b0-c7726d5502c3"
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
       },
       {
         "bit": 64,
         "displayName": "Manage test plans",
         "name": "MANAGE_TEST_PLANS",
-        "namespaceId": "83e28ad4-2d72-4ceb-97b0-c7726d5502c3"
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
       },
       {
         "bit": 128,
         "displayName": "Manage test suites",
         "name": "MANAGE_TEST_SUITES",
-        "namespaceId": "83e28ad4-2d72-4ceb-97b0-c7726d5502c3"
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 512,
+        "displayName": "Edit work item comments in this node",
+        "name": "WORK_ITEM_SAVE_COMMENT",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
       }
     ],
     "dataspaceCategory": "Integration",
@@ -1863,6 +1881,35 @@
     "actions": [
       {
         "bit": 1,
+        "displayName": "Read basic",
+        "name": "Read",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 2,
+        "displayName": "Write basic",
+        "name": "Write",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "EventPublish",
+    "namespaceId": "7cd317f2-adc6-4b6c-8d99-6074faeaf173",
+    "readPermission": 1,
+    "separatorValue": "/",
+    "structureValue": 0,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 0
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
         "displayName": "Read WorkItemTracking",
         "name": "Read",
         "namespaceId": "00000000-0000-0000-0000-000000000000"
@@ -2083,6 +2130,12 @@
         "displayName": "Administer build resource permissions",
         "name": "AdministerBuildResourcePermissions",
         "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 16,
+        "displayName": "Manage pipeline policies",
+        "name": "ManagePipelinePolicies",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
       }
     ],
     "dataspaceCategory": "Build",
@@ -2127,6 +2180,29 @@
     "systemBitMask": 0,
     "useTokenTranslator": false,
     "writePermission": 2
+  },
+  {
+    "actions": [
+      {
+        "bit": 1,
+        "displayName": "View organization-level data",
+        "name": "View",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      }
+    ],
+    "dataspaceCategory": "Default",
+    "displayName": null,
+    "elementLength": -1,
+    "extensionType": null,
+    "isRemotable": false,
+    "name": "OrganizationLevelData",
+    "namespaceId": "f0003bce-5f45-4f93-a25d-90fc33fe3aa9",
+    "readPermission": 1,
+    "separatorValue": "\u0000",
+    "structureValue": 0,
+    "systemBitMask": 0,
+    "useTokenTranslator": false,
+    "writePermission": 0
   },
   {
     "actions": [
@@ -2630,6 +2706,18 @@
         "bit": 16384,
         "displayName": "Administer build permissions",
         "name": "AdministerBuildPermissions",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 32768,
+        "displayName": "Create build pipeline",
+        "name": "CreateBuildDefinition",
+        "namespaceId": "00000000-0000-0000-0000-000000000000"
+      },
+      {
+        "bit": 65536,
+        "displayName": "Edit queue build configuration",
+        "name": "EditPipelineQueueConfigurationPermission",
         "namespaceId": "00000000-0000-0000-0000-000000000000"
       }
     ],
